@@ -4,8 +4,26 @@ const projects = [
   {
     title: "Enterprise Level Inventory Management App",
     description:
+      "Enterprise-grade AI dental appointment SaaS platform with role-based admin and patient domains, real-time and transaction-safe scheduling, subscription-gated voice AI interactions, and a scalable, serverless full-stack architecture built for production use.",
+    image: "projects/ai-dental-saas.png",
+    tags: [
+      "Next.js",
+      "Typescript",
+      "PostgreSQL(Neon)",
+      "Prisma",
+      "Vapi",
+      "Tanstack Query",
+      "Clerk",
+      "ShadcnUI",
+    ],
+    link: "https://ai-dental-saas.onrender.com",
+    github: "https://github.com/abselvam/ai-dental-saas",
+  },
+  {
+    title: "Enterprise Level Inventory Management App",
+    description:
       "Designed and built a scalable, enterprise-grade inventory management platform using Next.js and TypeScript, featuring role-based access, normalized PostgreSQL schemas, and Prisma-powered data integrity. Implemented predictable global state management with Redux RTK, deployed on AWS, and optimized workflows for real-world operational scale.",
-    image: "/projects/project1.png",
+    image: "projects/inventory-management.png",
     tags: ["Next.js", "Typescript", "PostgreSQL", "Prisma", "AWS"],
     link: "#",
     github: "https://github.com/abselvam/inventory-management-app",
@@ -14,7 +32,7 @@ const projects = [
     title: "Netflix-clone",
     description:
       "Built a full-stack Netflix-style streaming application using the MERN stack with secure JWT authentication, Zustand state management, and a responsive Tailwind CSS UI. Implemented scalable REST APIs, protected routes, and deployed the application on Render with production-ready architecture.",
-    image: "/projects/project2.png",
+    image: "/projects/netflix.png",
     tags: ["React", "Javascript", "MongoDB", "TailwindCss", "Node.js"],
     link: "https://netflix-clone-cime.onrender.com",
     github: "https://github.com/abselvam/netflix-clone",
@@ -23,7 +41,7 @@ const projects = [
     title: "Twitter-clone",
     description:
       "Built a full-stack Twitter-like application using the MERN stack with JWT-based authentication, secure password hashing, and real-time-style feed interactions. Implemented scalable API design, state management with Zustand, and deployed the application on Render with a responsive UI using Tailwind CSS.",
-    image: "/projects/project3.png",
+    image: "/projects/twitter.png",
     tags: ["React", "Javascript", "MongoDB", "TailwindCss", "Node.js"],
     link: "https://small-twitter-clone.onrender.com",
     github: "https://github.com/abselvam/small-twitter-clone",

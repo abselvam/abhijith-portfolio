@@ -15,6 +15,9 @@ const skills = [
   "MongoDB",
   "AWS",
   "Tailwind CSS",
+  "Vapi",
+  "Clerk",
+  "TanstackQuery",
   "Prisma",
   "Figma",
   "Git",
@@ -94,7 +97,7 @@ export const Hero = () => {
               <AnimatedBorderButton>
                 <Download className="w-5 h-5" />
                 <a
-                  href="/Abhijith_Selvam_Software_Dev.pdf"
+                  href="/Abhijith_Selvam_Software_Engineer.pdf"
                   download
                   target="_blank"
                   rel="noopener noreferrer"
